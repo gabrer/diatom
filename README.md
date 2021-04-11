@@ -2,7 +2,7 @@
 DIATOM - Disentangled Adversarial Neural Topic Model
 ===================
 
-This is an anonymous repository for the NAACL 2021 submission:\
+This is a repository for the NAACL 2021 paper:\
 *A Disentangled Adversarial Neural Topic Model for Separating Opinions from Plots in User Reviews*
 
 
@@ -11,13 +11,11 @@ This repository provides:
 - a PyTorch implementation of the **DIATOM** core architecture;
 - an extract of the annotated sentences from the **MOBO** dataset.
 
-This repository contains a portion of the full code that will be made available after publication implementing the main components of the model. Auxiliary files, scripts along with the full dataset will be released upon acceptance.
-
 The MOvie and BOok reviews dataset is a collection made up of movie and book reviews, paired with their related plots. The reviews come from different publicly available datasets: the Stanford's IMDB movie reviews [1], the GoodReads [2] and the Amazon reviews dataset [3].
 With the help of 15 annotators, we further labeled more than 18,000 reviews' sentences (~6000 per corpus), marking the sentence polarity (*Positive*, *Negative*), or whether a sentence describes its corresponding movie/book *Plot*, or none of the above (*None*). 
 In the `dataset` folder, we have shared an excerpt of the annotated sentences for each dataset.
 
-Further details on the data annotation process and inter-annotator agreement are available in the paper's Appendix.
+Further details on the data annotation process and inter-annotator agreement are available in the paper.
 
 [1]: [Learning word vectors for sentiment analysis](https://www.aclweb.org/anthology/P11-1015/), Maas et al., ACL11\
 [2]: [Fine-grained spoiler detection from large-scale review corpora](https://www.aclweb.org/anthology/P19-1248/), Wan et al., ACL19\
@@ -46,10 +44,6 @@ Further details on the data annotation process and inter-annotator agreement are
 - [SentenceBERT](https://github.com/UKPLab/sentence-transformers)
 - [Spacy](https://spacy.io/)
 - tqdm
-
-
-## Installation and Usage ##
-Additional scripts and information will be released upon acceptance.
 
 
 ## Files ##
