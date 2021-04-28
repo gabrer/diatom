@@ -9,7 +9,7 @@ This is a repository for the NAACL 2021 paper:\
 ## Description ##
 This repository provides:
 - a PyTorch implementation of the **DIATOM** core architecture;
-- an extract of the annotated sentences from the **MOBO** dataset.
+- an *extract* of the annotated sentences from the **MOBO** dataset.
 
 The MOvie and BOok reviews dataset is a collection made up of movie and book reviews, paired with their related plots. The reviews come from different publicly available datasets: the Stanford's IMDB movie reviews [1], the GoodReads [2] and the Amazon reviews dataset [3].
 With the help of 15 annotators, we further labeled more than 18,000 reviews' sentences (~6000 per corpus), marking the sentence polarity (*Positive*, *Negative*), or whether a sentence describes its corresponding movie/book *Plot*, or none of the above (*None*). 
